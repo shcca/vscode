@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": "."
+  },
+  "include": [
+    "index.ts",
+    "cmds/*"
+  ],
+  "references": [
+    {
+      "path": "../core"
+    }
+  ]
+}
